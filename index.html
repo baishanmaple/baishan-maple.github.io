@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="jquery-ui.css">
+<title>Languages in the World</title>
+<script src="jquery.min.js"></script>
+<script src="jquery-1.12.4.js"></script>
+<script src="jquery-ui.js"></script>
+<style>
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+.container { display: flex; justify-content: center; }
+.h2 {padding-left: 30%; padding-right: 30%;
+  font: Microsoft YaHei; }
+
+p{
+  font-size: 19px;
+}
+.h1{padding-left: 28%; padding-right: 30%;}
+.h3{padding-left: 30%; padding-right: 30%;
+  font: Microsoft YaHei;}
+.left_class{padding-left: 0.5%;
+  position:fixed;
+  left:20px;
+  top:440px;
+  background-color: #fff;
+  font: Microsoft YaHei;
+  float: left; width: 360px; height: 245px;
+border: rgb(44, 103, 158) solid 2px;}
+div a{
+  padding-left: 0.5%;
+  text-decoration:none;
+  color: rgb(81, 87, 93);
+}
+ul, li{
+  list-style-type:none;
+  padding-left: 0.5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+</style>
+<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+
+<!-- 首页地图 -->
+<div class="flourish-embed flourish-map" data-src="visualisation/10635543"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+<!-- 左侧导览 -->
+<div class="left_class">
+  <h2>CONTENT</h4>
+  <h3><a href="#title" class="content">Languages in the World</a></h5>
+  <ul>
+    <li>
+      <a href="#overview" style="font-size:16px" class="content"><b>·&nbsp;An Overview</b></a>
+      <ul>
+        <li><a href="#overview1" style="font-size:14px" class="content"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bubble Chart</b>: Language Families</a></li>
+        <li><a href="#overview2" style="font-size:14px" class="content"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunburst Chart</b>: Languages in Continents</a></li>
+      </ul>
+    </li>
+    <li>
+      <a  href="#china"  style="font-size:16px" class="content"><b>·&nbsp;A Look on Languages in Mainland China</b></a>
+    </li>
+  </ul>
+  <p style="font-size: 14px; padding-top: 0; padding-bottom:0">You can <b>Click</b> on what you're interested to have a look first. 
+    Click <a href="#" style="color:rgb(45, 161, 207)" class="content"><b>here</b></a> to return to the top.</p>
+</div>
+
+<!-- 设置导览平滑滚动 -->
+<script>
+  $(".content").click(function () {
+    $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top -20+ "px"}, 500);
+    return false;
+});
+</script>
+
+
+
+
+<!-- 中间部分，主要部分 -->
+<!-- 标题，数据来源，制作者 -->
+<h1 class="h1" style="padding-bottom: 0;" id="title">
+  <b style="color:rgb(152, 152, 152)">I&nbsp;</b>&nbsp;Languages in the World
+</h1>
+<p class="h3" style="font-size: 8px; padding-bottom:0px">Data Resource: Ethnologue: Languages of the World. Retrieved from: 
+  <a href="https://www.ethnologue.com/" target="_blank">https://www.ethnologue.com</a>
+</p>
+<p class="h3" style="font-size: 8px; padding-bottom:0px">Made by Xu Hanyi</p>
+<br>
+<br>
+<br>
+
+
+
+
+<!-- Overview-->
+<h3 class="h2" id="overview">An Overview</h3>
+
+
+
+
+
+<!-- 气泡图 -->
+<h3 class="h2" style="color:rgb(20, 7, 78)" id="overview1">· Bubble Chart: Language Families</h3>
+<div class="container">
+  <svg width="690" height="690"></svg>
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg1 = d3.select("svg")
+    margin = 20,
+    diameter = +svg1.attr("width"),
+    g1 = svg1.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+var color1 = d3.scaleLinear()
+    .domain([-1, 5])
+    .range(["hsl(180,70%,80%)", "hsl(300,40%,40%)"])
+    .interpolate(d3.interpolateHcl);
+
+var pack = d3.pack()
+    .size([diameter - margin, diameter - margin])
+    .padding(2);
+
+d3.json("language by family.json", function(error, root) {
+  if (error) throw error;
+
+  root = d3.hierarchy(root)
+      .sum(function(d) { return d.size; })
+      .sort(function(a, b) { return b.value - a.value; });
+
+  var focus = root,
+      nodes = pack(root).descendants(),
+      view;
+
+  var circle = g1.selectAll("circle")
+    .data(nodes)
+    .enter().append("circle")
+      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
+      .style("fill", function(d) { return d.children ? color1(d.depth) : null; })
+      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
+  
+  var text1 = g1.selectAll("text")
+    .data(nodes)
+    .enter().append("text")
+      .attr("class", "label")
+      .style("fill-opacity", function(d) { return (d.parent === root && d.value >= 160) ? 1 : 0; })
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .text(function(d) { return d.data.name; });
+  
+  var node = g1.selectAll("circle,text");
+
+  svg1
+      .style("background", color1(-1))
+      .on("click", function() { zoom(root); });
+
+  zoomTo([root.x, root.y, root.r * 2 + margin]);
+
+  function zoom(d) {
+    let focus0 = focus; focus = d;
+
+    let transition = d3.transition()
+        .duration(d3.event.altKey ? 7500 : 750)
+        .tween("zoom", function(d) {
+          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+          return function(t) { zoomTo(i(t)); };
+        });
+
+    transition.selectAll("text")
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .style("fill-opacity", function(d) { return d.value >= 160 ? 1 : 0; })
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+  }
+
+  function zoomTo(v) {
+    var k = diameter / v[2]; view = v;
+    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+    circle.attr("r", function(d) { return d.r * k; });
+  }
+});
+
+</script>
+<br>
+<!-- 气泡图解说 -->
+<p class="h2">There're <b>7503</b> types of languages with <b>152</b> 
+  language families in the world. Languages families and their members 
+  are shown on the bubble chart. A bubble represents a languange 
+  family, and the size of a bubble illustrates how many sub-types 
+  are there of the language family.
+</p> 
+<p class="h2">
+  For the hugest language family, <b>Niger-Congo</b> who has 1454 types 
+  of sub-languages, are popular in Africa. And the second 
+  largest language family, <b>Austronesian</b>, are mostly used 
+  by people in South-east Asia, including Indonisia and Malaysia.
+</p>
+<p class="h2">Most of Chinese languages belong to <b>Sino-Tibetan</b>, 
+  which is shared by Southern and Eastern Asian countries, such 
+  as India and Nepal.
+</p>
+<br>
+
+
+
+
+
+<!-- 旭日图 -->
+<h3 class="h2" style="color:rgb(20, 7, 78)" id="overview2">· Sunburst Chart: Languages in Continents</h3>
+<p class="h2">From the sunburst below, it is seen that the numbers of 
+  languages in different continents represent interesting distinctions.</p>
+<div class="container">
+  <svg id="chart1" width="750" height="750"></svg>
+</div>
+<p class="h2">Americas, including South America and North America, 
+  has a larger area than Asia, but the number of languages in Americas 
+  accounts for only about a half of that in Asia. <b>Asian</b> and <b>African</b> people 
+  speak more languages, including local languages and foreign (especailly 
+  European) languages that are intruduced by invaders about 200 years ago.
+</p>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script>
+  
+    'use strict';
+
+    const format = d3.format(",d");
+    const width = 710;
+    const radius = width / 6;
+
+    const arc = d3.arc()
+            .startAngle(d => d.x0)
+            .endAngle(d => d.x1)
+            .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
+            .padRadius(radius * 1.5)
+            .innerRadius(d => d.y0 * radius)
+            .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
+
+    const partition = data => {
+        const root = d3.hierarchy(data)
+                .sum(d => d.size)
+                .sort((a, b) => b.value - a.value);
+        return d3.partition()
+                .size([2 * Math.PI, root.height + 1])
+                (root);
+    };
+
+
+    d3.json('language by country.json').then(data => {
+        console.log(data);
+        const root = partition(data);
+        const color = d3.scaleOrdinal().range(d3.quantize(d3.interpolateRainbow, data.children.length+1));
+
+        root.each(d => d.current = d);
+
+        const svg = d3.select('#chart1')
+                .style("font", "14px sans-serif");
+
+        const g = svg.append("g")
+                .attr("transform", `translate(${width / 2},${width / 2})`);
+
+        const path = g.append("g")
+                .selectAll("path")
+                .data(root.descendants().slice(1))
+                .join("path")
+                .attr("fill", d => {
+                    while (d.depth > 1)
+                        { d = d.parent; }
+                    return color(d.data.name);
+                })
+                .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
+                .attr("d", d => arc(d.current));
+
+        path.filter(d => d.children)
+                .style("cursor", "pointer")
+                .on("click", clicked);
+
+        path.append("title")
+                .text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\n${format(d.value)}`);
+
+        const label = g.append("g")
+                .attr("pointer-events", "none")
+                .attr("text-anchor", "middle")
+                .style("user-select", "none")
+                .selectAll("text")
+                .data(root.descendants().slice(1))
+                .join("text")
+                .attr("dy", "0.35em")
+                .attr("fill-opacity", d => +labelVisible(d.current))
+                .attr("transform", d => labelTransform(d.current))
+                .text(d => d.data.name);
+
+        const parent = g.append("circle")
+                .datum(root)
+                .attr("r", radius)
+                .attr("fill", "none")
+                .attr("pointer-events", "all")
+                .on("click", clicked);
+
+        function clicked(p) {
+            parent.datum(p.parent || root);
+
+            root.each(d => d.target = {
+                    x0: Math.max(0, Math.min(1, (d.x0 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,
+                    x1: Math.max(0, Math.min(1, (d.x1 - p.x0) / (p.x1 - p.x0))) * 2 * Math.PI,
+                    y0: Math.max(0, d.y0 - p.depth),
+                    y1: Math.max(0, d.y1 - p.depth)
+                });
+
+            const t = g.transition().duration(750);
+
+            // Transition the data on all arcs, even the ones that aren’t visible,
+            // so that if this transition is interrupted, entering arcs will start
+            // the next transition from the desired position.
+            path.transition(t)
+                    .tween("data", d => {
+                        const i = d3.interpolate(d.current, d.target);
+                        return t => d.current = i(t);
+                    })
+                    .filter(function (d) {
+                        return +this.getAttribute("fill-opacity") || arcVisible(d.target);
+                    })
+                    .attr("fill-opacity", d => arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
+                    .attrTween("d", d => () => arc(d.current));
+
+            label.filter(function (d) {
+                return +this.getAttribute("fill-opacity") || labelVisible(d.target);
+            }).transition(t)
+                    .attr("fill-opacity", d => +labelVisible(d.target))
+                    .attrTween("transform", d => () => labelTransform(d.current));
+        }
+
+        function arcVisible(d) {
+            return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
+        }
+
+        function labelVisible(d) {
+            return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.05;
+        }
+
+        function labelTransform(d) {
+            const x = (d.x0 + d.x1) / 2 * 180 / Math.PI;
+            const y = (d.y0 + d.y1) / 2 * radius;
+            return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
+        }
+    });
+
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<!-- 中国大陆的语言分布 -->
+<h3 class="h2" id="china">A Look on Languages in Mainland China</h3>
+<p class="h2" style="padding-bottom:0">The distribution of languages in provinces of 
+  Mainland China (Taiwan, Hong Kong, Macao not included) is illustrated 
+  on the chart below. 
+</p>
+<div class="container">
+  <canvas id="echart1" width="1000" height="600"></canvas>
+</div>
+<div class="container">
+  <button id="button1">Histogram</button>
+  <button id="button2">Doughnut Chart</button>
+  <button id="button3">Polar Bar</button>
+</div>
+<script>
+
+  $( function() {
+    $( ".container button" ).button();
+    $( "#button1" ).click( function( event ) {
+      drawBar();
+    });
+    $( "#button2" ).click( function( event ) {
+      drawPie();
+    });
+    $( "#button3" ).click( function( event ) {
+      drawPolar();
+    });
+    
+  });
+  function drawBar(){
+    var chartDom = document.getElementById('echart1');
+    var myChart = echarts.init(chartDom);
+    var option;
+    data = [
+      137, 42, 36, 26, 23, 15, 14, 8, 8, 7, 7, 5, 5, 5, 3, 3, 3, 2, 2, 2, 2, 1, 1,
+      1, 1, 1, 1, 1, 1
+    ];
+
+    for (let i = 0; i < data.length; i++) {
+      if (i == 0 || i == 3 || i == 2 || i == 21 || i == 4) {
+        data[i] = { value: data[i], itemStyle: { color: '#68defa' } };
+      }
+      else{
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }
+      /*if (i == 7 || i == 16 || i == 20) {
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }
+      if (i == 26 || i == 23 || i == 28 || i == 14 || i == 19 || i == 9) {
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }
+      if (i == 17 || i == 15 || i == 27 || i == 14) {
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }
+      if (i == 10 || i == 1 || i == 11) {
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }
+      if (i == 22 || i == 8 || i == 18) {
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }
+      if (i == 25 || i == 6 || i == 13 || i == 24 || i == 5 || i == 12) {
+        data[i] = { value: data[i], itemStyle: { color: '#4CB1D7' } };
+      }*/
+    }
+
+    option = {
+      title: [
+        {
+          text: 'Numbers of Language Types by Province',
+          x: 'center'
+        }
+      ],
+      xAxis: {
+        type: 'category',
+        axisLabel: {
+          show: true,
+          interval:0,
+          rotate:0,
+          textStyle: {
+              color: '#333'
+          }
+      },
+        data: [
+          '云南','广西','贵州','四川','西藏','新疆','甘肃','黑龙江','湖南',
+          '福建','广东','海南','内蒙古','青海','安徽','河北','吉林','北京',
+          '湖北','江西','辽宁','重庆','河南','江苏','宁夏','陕西','上海',
+          '山西','浙江'
+        ]
+      },
+      yAxis: {
+        type: 'value',
+        axisLabel: {
+          show: false
+          }
+      },
+      series: [
+        {
+          data: data,
+          type: 'bar',
+          showBackground: true,
+          backgroundStyle: {
+            color: 'rgba(180, 180, 180, 0.2)'
+          },
+          itemStyle: {
+            normal: {
+              label: {
+                show: true, //开启显示
+                position: 'top', //在上方显示
+                textStyle: { //数值样式
+                  color: 'black',
+                  fontSize: 16
+                }
+              }
+            }
+          }
+        }
+      ]
+    };
+    myChart.clear();
+    option && myChart.setOption(option);
+  }
+
+  function drawPolar(){
+    var chartDom = document.getElementById('echart1');
+    var myChart = echarts.init(chartDom);
+    var option;
+
+    option = {
+      title: [
+        {
+          text: 'Provinces with over 10 Languages',
+          x: 'center'
+        }
+      ],
+      polar: {
+        radius: [30, '80%']
+      },
+      angleAxis: {
+        max: 150,
+        startAngle: 75
+      },
+      radiusAxis: {
+        type: 'category',
+        show: true,
+        data: ['云南', '广西', '贵州', '四川', '西藏', '新疆', '甘肃'].reverse(),
+        minInterval: 0,
+        triggerEvent:true
+      },
+      tooltip: {
+        show: true
+      },
+      series: {
+        type: 'bar',
+        data: [137, 42, 36, 26, 23, 15, 14].reverse(),
+        coordinateSystem: 'polar',
+        label: {
+          show: true,
+          position: 'middle',
+          formatter: '{c}'
+        },
+        itemStyle: {
+          normal: {
+            // 定制显示（按顺序）
+            color: '#00deff'
+          }
+        }
+      }
+    };
+    myChart.clear();
+    option && myChart.setOption(option);
+
+  }
+
+  function drawPie(){
+    var chartDom = document.getElementById('echart1');
+    var myChart = echarts.init(chartDom);
+    var option;
+
+    var name = [
+      '云南',
+      '广西',
+      '贵州',
+      '四川',
+      '西藏',
+      '新疆',
+      '甘肃',
+      '黑龙江',
+      '湖南',
+      '福建',
+      '广东',
+      '海南',
+      '内蒙古',
+      '青海',
+      '安徽',
+      '河北',
+      '吉林',
+      '北京',
+      '湖北',
+      '江西',
+      '辽宁',
+      '其他'
+    ];
+    var numbers = [
+      137, 42, 36, 26, 23, 15, 14, 8, 8, 7, 7, 5, 5, 5, 3, 3, 3, 2, 2, 2, 2, 8
+    ];
+    var mydata = [];
+
+    for (let i = 0; i < name.length; i++) {
+      mydata.push({ value: numbers[i], name: name[i] });
+    }
+    option = {
+      tooltip: {
+        trigger: 'item'
+      },
+      legend: {
+        show:false,
+        top: '5%',
+        left: 'center'
+      },
+      
+      title: [
+        {
+          text: 'Numbers of Language Types by Province',
+          x: 'center'
+        }
+      ],
+      series: [
+          {
+          name: 'Access From',
+          type: 'pie',
+          color: ['#3FD9FF','#00BBFF','#00BBFF','#00BBFF','#00BBFF',
+          '#00BBFF','#00BBFF', '#B2B2B2', '#B2B2B2','#B2B2B2',
+          '#B2B2B2', '#B2B2B2','#B2B2B2',
+          '#B2B2B2', '#B2B2B2','#B2B2B2',
+          '#B2B2B2', '#B2B2B2','#B2B2B2',
+          '#B2B2B2', '#B2B2B2','#B2B2B2',
+          ],
+          radius: ['40%', '70%'],
+          avoidLabelOverlap: false,
+          itemStyle: {
+            borderRadius: 10,
+            borderColor: '#fff',
+            borderWidth: 2
+          },
+          label: {
+            show: false,
+            position: 'center'
+          },
+          emphasis: {
+            label: {
+              show: true,
+              fontSize: '40',
+              fontWeight: 'bold'
+            }
+          },
+          labelLine: {
+            show: false
+          },
+          data: mydata
+        }
+      ]
+    };
+    myChart.clear()
+    option && myChart.setOption(option);
+
+  }
+  drawBar();
+
+
+</script>
+<!-- 大陆语言相关解说 -->
+<p class="h2">
+  On the whole, eastern provinces have less types of 
+  languages than western provinces.
+</p>
+<p class="h2">
+  Provinces in <b>Southwestern China</b>, especially 云南, have much more 
+  languages than other provinces, while in Eastern China, types of languages are much less. 
+  For example, languages of Shanghai, Zhejiang, Jiangsu, 
+  belong to only one type: 吴语. 
+</p>
+
+<p class="h2">
+  Where there're more <b>minority groups</b> seems to possess more languages. According 
+  to the statistical data, China's ethnic minorities are mainly concentrated 
+  in provinces like 新疆, 西藏, 广西, which prove to be abundant in languages.
+</p>
