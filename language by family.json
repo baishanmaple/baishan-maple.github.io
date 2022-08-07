@@ -1,0 +1,3656 @@
+{
+	"name": "language in the world",
+	"children": 
+	[
+		{
+			"name": "Abkhaz-Adyghe",
+			"children": 
+			[
+				{
+					"name": "Abkhaz-Abazin",
+					"size": "20"
+				},
+				{
+					"name": "Circassian",
+					"size": "20"
+				},
+				{
+					"name": "Ubyx",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Afro-Asiatic",
+			"children": 
+			[
+				{
+					"name": "Berber",
+					"size": "270"
+				},
+				{
+					"name": "Chadic",
+					"size": "1960"
+				},
+				{
+					"name": "Cushitic",
+					"size": "460"
+				},
+				{
+					"name": "Egyptian",
+					"size": "10"
+				},
+				{
+					"name": "Omotic",
+					"size": "310"
+				},
+				{
+					"name": "Semitic",
+					"size": "790"
+				},
+				{
+					"name": "Unclassified",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Algic",
+			"children": 
+			[
+				{
+					"name": "Algonquian",
+					"size": "390"
+				},
+				{
+					"name": "Ritwan",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Amto-Musan",
+			"children": 
+			[
+				{
+					"name": "Amoto",
+					"size": "10"
+				},
+				{
+					"name": "Siawi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Andamanese",
+			"children": 
+			[
+				{
+					"name": "Great Andamanese",
+					"size": "110"
+				},
+				{
+					"name": "South Andamanese",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Arafundi",
+			"children": 
+			[
+				{
+					"name": "Andai",
+					"size": "10"
+				},
+				{
+					"name": "Nanubae",
+					"size": "10"
+				},
+				{
+					"name": "Tapei",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Arai (Left May)",
+			"children": 
+			[
+				{
+					"name": "Bo",
+					"size": "10"
+				},
+				{
+					"name": "Nakwi",
+					"size": "10"
+				},
+				{
+					"name": "Nimo",
+					"size": "10"
+				},
+				{
+					"name": "Owiniga",
+					"size": "10"
+				},
+				{
+					"name": "Sawiyanu",
+					"size": "10"
+				},
+				{
+					"name": "Yawuno Teneyo",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Arauan",
+			"children": 
+			[
+				{
+					"name": "Den\u00ed",
+					"size": "10"
+				},
+				{
+					"name": "Kulina",
+					"size": "10"
+				},
+				{
+					"name": "Paumar\u00ed",
+					"size": "10"
+				},
+				{
+					"name": "Suruah\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Jamamad\u00ed",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Australian",
+			"children": 
+			[
+				{
+					"name": "Lanima",
+					"size": "10"
+				},
+				{
+					"name": "Bunaban",
+					"size": "20"
+				},
+				{
+					"name": "Daly",
+					"size": "190"
+				},
+				{
+					"name": "Djamindjungan",
+					"size": "20"
+				},
+				{
+					"name": "Djeragan",
+					"size": "30"
+				},
+				{
+					"name": "Glimbiyu",
+					"size": "30"
+				},
+				{
+					"name": "Gunwingguan",
+					"size": "250"
+				},
+				{
+					"name": "Laragiyan",
+					"size": "10"
+				},
+				{
+					"name": "Limilngan-Wulna",
+					"size": "20"
+				},
+				{
+					"name": "Nyulnyulan",
+					"size": "100"
+				},
+				{
+					"name": "Pama-Nyungan",
+					"size": "2820"
+				},
+				{
+					"name": "Tangic",
+					"size": "30"
+				},
+				{
+					"name": "Tiwian",
+					"size": "10"
+				},
+				{
+					"name": "Umbugarla-Ngumbur",
+					"size": "20"
+				},
+				{
+					"name": "West Barkly",
+					"size": "30"
+				},
+				{
+					"name": "Worrorran",
+					"size": "120"
+				},
+				{
+					"name": "Yanyi",
+					"size": "20"
+				},
+				{
+					"name": "Yiwaidjan",
+					"size": "60"
+				}
+			]
+		},
+		{
+			"name": "Austro-Asiatic",
+			"children": 
+			[
+				{
+					"name": "Mon-Khmer",
+					"size": "1440"
+				},
+				{
+					"name": "Munda",
+					"size": "230"
+				}
+			]
+		},
+		{
+			"name": "Austronesian",
+			"children": 
+			[
+				{
+					"name": "Atayalic",
+					"size": "20"
+				},
+				{
+					"name": "Bunun",
+					"size": "10"
+				},
+				{
+					"name": "East Formosan",
+					"size": "60"
+				},
+				{
+					"name": "Malayo-Polynesian",
+					"size": "12350"
+				},
+				{
+					"name": "Northwest Formosan",
+					"size": "30"
+				},
+				{
+					"name": "Paiwan",
+					"size": "10"
+				},
+				{
+					"name": "Puyuma",
+					"size": "10"
+				},
+				{
+					"name": "Rukai",
+					"size": "10"
+				},
+				{
+					"name": "Tsouic",
+					"size": "30"
+				},
+				{
+					"name": "Unclassified",
+					"size": "10"
+				},
+				{
+					"name": "Western Plains",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Aymaran",
+			"children": 
+			[
+				{
+					"name": "Aymara",
+					"size": "20"
+				},
+				{
+					"name": "Tupe",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Barbacoan",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "10"
+				},
+				{
+					"name": "Southern",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Bayono-Awbono",
+			"children": 
+			[
+				{
+					"name": "Awbono",
+					"size": "10"
+				},
+				{
+					"name": "Bayono",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Border",
+			"children": 
+			[
+				{
+					"name": "Bewani",
+					"size": "50"
+				},
+				{
+					"name": "Taikat",
+					"size": "20"
+				},
+				{
+					"name": "Waris",
+					"size": "80"
+				}
+			]
+		},
+		{
+			"name": "Bororoan",
+			"children": 
+			[
+				{
+					"name": "Bor\u00f4ro",
+					"size": "10"
+				},
+				{
+					"name": "Otuke",
+					"size": "10"
+				},
+				{
+					"name": "Umot\u00edna",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Botocudoan",
+			"children": 
+			[
+				{
+					"name": "Krenak",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Caddoan",
+			"children": 
+			[
+				{
+					"name": "Caddo",
+					"size": "10"
+				},
+				{
+					"name": "Northern Caddo",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Cahuapanan",
+			"children": 
+			[
+				{
+					"name": "Jebero",
+					"size": "10"
+				},
+				{
+					"name": "Shawi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Cariban",
+			"children": 
+			[
+				{
+					"name": "Cariba",
+					"size": "10"
+				},
+				{
+					"name": "Central",
+					"size": "100"
+				},
+				{
+					"name": "Kashuyana",
+					"size": "10"
+				},
+				{
+					"name": "North Amazonian",
+					"size": "50"
+				},
+				{
+					"name": "South Amazonian",
+					"size": "60"
+				},
+				{
+					"name": "\u00a0Tiriy\u00f3",
+					"size": "40"
+				},
+				{
+					"name": "Waiwai",
+					"size": "20"
+				},
+				{
+					"name": "Yukpa",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Central Solomons",
+			"children": 
+			[
+				{
+					"name": "Bilua",
+					"size": "10"
+				},
+				{
+					"name": "Lavukaleve",
+					"size": "10"
+				},
+				{
+					"name": "Savosavo",
+					"size": "10"
+				},
+				{
+					"name": "Touo",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chapacuran",
+			"children": 
+			[
+				{
+					"name": "Itene",
+					"size": "20"
+				},
+				{
+					"name": "Waris",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Chibchan",
+			"children": 
+			[
+				{
+					"name": "Chibchan A",
+					"size": "60"
+				},
+				{
+					"name": "Chibchan B",
+					"size": "140"
+				}
+			]
+		},
+		{
+			"name": "Chimakuan",
+			"children": 
+			[
+				{
+					"name": "Quileute",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chinookan",
+			"children": 
+			[
+				{
+					"name": "Chinook",
+					"size": "10"
+				},
+				{
+					"name": "Upper Chinookan",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chipaya-Uru",
+			"children": 
+			[
+				{
+					"name": "Chipaya",
+					"size": "10"
+				},
+				{
+					"name": "Uru",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chocoan",
+			"children": 
+			[
+				{
+					"name": "Woun Meu",
+					"size": "10"
+				},
+				{
+					"name": "Ember\u00e1",
+					"size": "60"
+				}
+			]
+		},
+		{
+			"name": "Cholonan",
+			"children": 
+			[
+				{
+					"name": "Chol\u00f3n",
+					"size": "10"
+				},
+				{
+					"name": "Hibito",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chon",
+			"children": 
+			[
+				{
+					"name": "Tehuelche",
+					"size": "10"
+				},
+				{
+					"name": "Island Chon",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chukotko-Kamchatkan",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "40"
+				},
+				{
+					"name": "Southern",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Chumashan",
+			"children": 
+			[
+				{
+					"name": "Obispe\u00f1o",
+					"size": "10"
+				},
+				{
+					"name": "Central Chumash",
+					"size": "40"
+				},
+				{
+					"name": "Island Chumash",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Cochim\u00ed-Yuman",
+			"children": 
+			[
+				{
+					"name": "Yuman",
+					"size": "90"
+				}
+			]
+		},
+		{
+			"name": "Constructed language",
+			"children": 
+			[
+				{
+					"name": "Esperanto",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Coosan",
+			"children": 
+			[
+				{
+					"name": "Coos",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Creole",
+			"children": 
+			[
+				{
+					"name": "Afrikaans based",
+					"size": "20"
+				},
+				{
+					"name": "Arabic based",
+					"size": "20"
+				},
+				{
+					"name": "Assamese based",
+					"size": "10"
+				},
+				{
+					"name": "Dutch based",
+					"size": "50"
+				},
+				{
+					"name": "English based",
+					"size": "330"
+				},
+				{
+					"name": "French based",
+					"size": "110"
+				},
+				{
+					"name": "German based",
+					"size": "10"
+				},
+				{
+					"name": "Hindi based",
+					"size": "10"
+				},
+				{
+					"name": "Iberian based",
+					"size": "10"
+				},
+				{
+					"name": "Kongo based",
+					"size": "20"
+				},
+				{
+					"name": "Malay based",
+					"size": "140"
+				},
+				{
+					"name": "Ngbandi based",
+					"size": "20"
+				},
+				{
+					"name": "Portuguese based",
+					"size": "130"
+				},
+				{
+					"name": "Spanish based",
+					"size": "20"
+				},
+				{
+					"name": "Swahili based",
+					"size": "10"
+				},
+				{
+					"name": "Tetun based",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Dravidian",
+			"children": 
+			[
+				{
+					"name": "Central",
+					"size": "50"
+				},
+				{
+					"name": "Northern",
+					"size": "50"
+				},
+				{
+					"name": "South-Central",
+					"size": "230"
+				},
+				{
+					"name": "Southern",
+					"size": "470"
+				},
+				{
+					"name": "Unclassified",
+					"size": "50"
+				}
+			]
+		},
+		{
+			"name": "East Bird\u2019s Head-Sentani",
+			"children": 
+			[
+				{
+					"name": "Burmeso",
+					"size": "10"
+				},
+				{
+					"name": "East Bird's Head",
+					"size": "30"
+				},
+				{
+					"name": "Sentani",
+					"size": "40"
+				}
+			]
+		},
+		{
+			"name": "East Geelvink Bay",
+			"children": 
+			[
+				{
+					"name": "Anasi",
+					"size": "10"
+				},
+				{
+					"name": "Barapasi",
+					"size": "10"
+				},
+				{
+					"name": "Burate",
+					"size": "10"
+				},
+				{
+					"name": "Kehu",
+					"size": "10"
+				},
+				{
+					"name": "Kofei",
+					"size": "10"
+				},
+				{
+					"name": "Nisa",
+					"size": "10"
+				},
+				{
+					"name": "Saufa",
+					"size": "10"
+				},
+				{
+					"name": "Tefaro",
+					"size": "10"
+				},
+				{
+					"name": "Tunggare",
+					"size": "10"
+				},
+				{
+					"name": "Woria",
+					"size": "10"
+				},
+				{
+					"name": "Bauzi",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "East New Britain",
+			"children": 
+			[
+				{
+					"name": "Baining",
+					"size": "60"
+				},
+				{
+					"name": "Taulil",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Eastern Trans-Fly",
+			"children": 
+			[
+				{
+					"name": "Bine",
+					"size": "10"
+				},
+				{
+					"name": "Gizrra",
+					"size": "10"
+				},
+				{
+					"name": "Meriam Mir",
+					"size": "10"
+				},
+				{
+					"name": "Wipi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Eyak-Athabaskan",
+			"children": 
+			[
+				{
+					"name": "Eyak",
+					"size": "10"
+				},
+				{
+					"name": "Athabaskan",
+					"size": "420"
+				},
+				{
+					"name": "Tlingit",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Eskimo-Aleut",
+			"children": 
+			[
+				{
+					"name": "Aleut",
+					"size": "10"
+				},
+				{
+					"name": "Eskimo",
+					"size": "100"
+				}
+			]
+		},
+		{
+			"name": "Fas",
+			"children": 
+			[
+				{
+					"name": "Baibai",
+					"size": "10"
+				},
+				{
+					"name": "Momu",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Guajiboan",
+			"children": 
+			[
+				{
+					"name": "Cuiba",
+					"size": "10"
+				},
+				{
+					"name": "Guayabero",
+					"size": "10"
+				},
+				{
+					"name": "Guajibo",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Guaykuruan",
+			"children": 
+			[
+				{
+					"name": "Guaykur\u00fa",
+					"size": "10"
+				},
+				{
+					"name": "Southern",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Haida",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "10"
+				},
+				{
+					"name": "Southern",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Har\u00e1kmbut",
+			"children": 
+			[
+				{
+					"name": "Amarakaeri",
+					"size": "10"
+				},
+				{
+					"name": "Huachipaeri",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Hmong-Mien",
+			"children": 
+			[
+				{
+					"name": "Hmongic",
+					"size": "330"
+				},
+				{
+					"name": "Ho Nite",
+					"size": "10"
+				},
+				{
+					"name": "Mienic",
+					"size": "50"
+				}
+			]
+		},
+		{
+			"name": "Huavean",
+			"children": 
+			[
+				{
+					"name": "San Dionisio del Mar",
+					"size": "10"
+				},
+				{
+					"name": "San Francisco del Mar",
+					"size": "10"
+				},
+				{
+					"name": "San Mateo del Mar",
+					"size": "10"
+				},
+				{
+					"name": "Santa Mar\u00eda del Mar",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Indo-European",
+			"children": 
+			[
+				{
+					"name": "Albanian",
+					"size": "40"
+				},
+				{
+					"name": "Armenian",
+					"size": "20"
+				},
+				{
+					"name": "Balto-Slavic",
+					"size": "270"
+				},
+				{
+					"name": "Celtic",
+					"size": "60"
+				},
+				{
+					"name": "Germantic",
+					"size": "470"
+				},
+				{
+					"name": "Greek",
+					"size": "60"
+				},
+				{
+					"name": "Indo-Iranian",
+					"size": "3120"
+				},
+				{
+					"name": "Italic",
+					"size": "440"
+				}
+			]
+		},
+		{
+			"name": "Iroquoian",
+			"children": 
+			[
+				{
+					"name": "Cherokee",
+					"size": "10"
+				},
+				{
+					"name": "Northen",
+					"size": "90"
+				}
+			]
+		},
+		{
+			"name": "Jabutian",
+			"children": 
+			[
+				{
+					"name": "Arikap\u00fa",
+					"size": "10"
+				},
+				{
+					"name": "Jabut\u00ed",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Japonic",
+			"children": 
+			[
+				{
+					"name": "Japanese",
+					"size": "10"
+				},
+				{
+					"name": "Ryukyuan",
+					"size": "110"
+				}
+			]
+		},
+		{
+			"name": "Jean",
+			"children": 
+			[
+				{
+					"name": "Central",
+					"size": "40"
+				},
+				{
+					"name": "Northern",
+					"size": "90"
+				},
+				{
+					"name": "Southern",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Jicaquean",
+			"children": 
+			[
+				{
+					"name": "Tol",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "J\u00edvaroan",
+			"children": 
+			[
+				{
+					"name": "Awaj\u00fan",
+					"size": "10"
+				},
+				{
+					"name": "J\u00edvaro",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Kamakanan",
+			"children": 
+			[
+				{
+					"name": "Kamak\u00e1n",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Karaj\u00e1",
+			"children": 
+			[
+				{
+					"name": "Karaj\u00e1",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Kartvelian",
+			"children": 
+			[
+				{
+					"name": " Georgian",
+					"size": "20"
+				},
+				{
+					"name": "Svan",
+					"size": "10"
+				},
+				{
+					"name": "Zan",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Katukinan",
+			"children": 
+			[
+				{
+					"name": "Kanamar\u00ed",
+					"size": "10"
+				},
+				{
+					"name": "Katawixi",
+					"size": "10"
+				},
+				{
+					"name": "Katuk\u00edna",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Kaure",
+			"children": 
+			[
+				{
+					"name": "Kapore",
+					"size": "10"
+				},
+				{
+					"name": "Kaure Proper",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Kaweskaran",
+			"children": 
+			[
+				{
+					"name": "Qawasqar",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Keresan",
+			"children": 
+			[
+				{
+					"name": "Eastern",
+					"size": "10"
+				},
+				{
+					"name": "Western",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Khoe-Kwadi",
+			"children": 
+			[
+				{
+					"name": "Khoe",
+					"size": "120"
+				},
+				{
+					"name": "Kwadi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Kiowa-Tanoan",
+			"children": 
+			[
+				{
+					"name": "Jemez",
+					"size": "10"
+				},
+				{
+					"name": "Kiowa",
+					"size": "10"
+				},
+				{
+					"name": "Tewa",
+					"size": "10"
+				},
+				{
+					"name": "Tanoan",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Koreanic",
+			"children": 
+			[
+				{
+					"name": "Jejueo",
+					"size": "10"
+				},
+				{
+					"name": "Korean",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Kra-Dai",
+			"children": 
+			[
+				{
+					"name": "Nora",
+					"size": "10"
+				},
+				{
+					"name": "Hlai",
+					"size": "20"
+				},
+				{
+					"name": "Kam-Tai",
+					"size": "720"
+				},
+				{
+					"name": "Kra",
+					"size": "160"
+				}
+			]
+		},
+		{
+			"name": "Kwomtari",
+			"children": 
+			[
+				{
+					"name": "Guriaso",
+					"size": "10"
+				},
+				{
+					"name": "Nuclear Kwomtari",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Kx'a",
+			"children": 
+			[
+				{
+					"name": "Amkhoe",
+					"size": "10"
+				},
+				{
+					"name": "Kung",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Lakes Plain",
+			"children": 
+			[
+				{
+					"name": "Awera",
+					"size": "10"
+				},
+				{
+					"name": "East",
+					"size": "20"
+				},
+				{
+					"name": "Rasawa-Saponi",
+					"size": "20"
+				},
+				{
+					"name": "Tariku",
+					"size": "150"
+				}
+			]
+		},
+		{
+			"name": "Language Isolate",
+			"children": 
+			[
+				{
+					"name": "Abinomn",
+					"size": "10"
+				},
+				{
+					"name": "Abun",
+					"size": "10"
+				},
+				{
+					"name": "Aikan\u00e3",
+					"size": "10"
+				},
+				{
+					"name": "Ainu",
+					"size": "10"
+				},
+				{
+					"name": "Andoque",
+					"size": "10"
+				},
+				{
+					"name": "Arutani",
+					"size": "10"
+				},
+				{
+					"name": "Aushiri",
+					"size": "10"
+				},
+				{
+					"name": "Bangime",
+					"size": "10"
+				},
+				{
+					"name": "Basque",
+					"size": "10"
+				},
+				{
+					"name": "Burushaski",
+					"size": "10"
+				},
+				{
+					"name": "Callawalla",
+					"size": "10"
+				},
+				{
+					"name": "Cams\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Canichana",
+					"size": "10"
+				},
+				{
+					"name": "Cayubaba",
+					"size": "10"
+				},
+				{
+					"name": "Cent\u00fa\u00fam",
+					"size": "10"
+				},
+				{
+					"name": "Chimariko",
+					"size": "10"
+				},
+				{
+					"name": "Chiquitano",
+					"size": "10"
+				},
+				{
+					"name": "Chitimacha",
+					"size": "10"
+				},
+				{
+					"name": "Cof\u00e1n",
+					"size": "10"
+				},
+				{
+					"name": "Cuitlatec",
+					"size": "10"
+				},
+				{
+					"name": "Elseng",
+					"size": "10"
+				},
+				{
+					"name": "Esselen",
+					"size": "10"
+				},
+				{
+					"name": "Gilyak",
+					"size": "10"
+				},
+				{
+					"name": "Guat\u00f3",
+					"size": "10"
+				},
+				{
+					"name": "Hadza",
+					"size": "10"
+				},
+				{
+					"name": "Hatam",
+					"size": "10"
+				},
+				{
+					"name": "Hod\u00ef",
+					"size": "10"
+				},
+				{
+					"name": "Iat\u00ea",
+					"size": "10"
+				},
+				{
+					"name": "Ir\u00e1ntxe",
+					"size": "10"
+				},
+				{
+					"name": "Itonama",
+					"size": "10"
+				},
+				{
+					"name": "Kandozi-Chapra",
+					"size": "10"
+				},
+				{
+					"name": "Kano\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Karir\u00ed-Xoc\u00f3",
+					"size": "10"
+				},
+				{
+					"name": "Karok",
+					"size": "10"
+				},
+				{
+					"name": "Klamath-Modoc",
+					"size": "10"
+				},
+				{
+					"name": "Kol",
+					"size": "10"
+				},
+				{
+					"name": "Kunza",
+					"size": "10"
+				},
+				{
+					"name": "Kuot",
+					"size": "10"
+				},
+				{
+					"name": "Kusunda",
+					"size": "10"
+				},
+				{
+					"name": "Kutenai",
+					"size": "10"
+				},
+				{
+					"name": "Kwaza",
+					"size": "10"
+				},
+				{
+					"name": "Laal",
+					"size": "10"
+				},
+				{
+					"name": "Leco",
+					"size": "10"
+				},
+				{
+					"name": "M\u00e1ku",
+					"size": "10"
+				},
+				{
+					"name": "Massep",
+					"size": "10"
+				},
+				{
+					"name": "Mawes",
+					"size": "10"
+				},
+				{
+					"name": "Molale",
+					"size": "10"
+				},
+				{
+					"name": "Movima",
+					"size": "10"
+				},
+				{
+					"name": "Mpur",
+					"size": "10"
+				},
+				{
+					"name": "Muniche",
+					"size": "10"
+				},
+				{
+					"name": "Natchez",
+					"size": "10"
+				},
+				{
+					"name": "Nihali",
+					"size": "10"
+				},
+				{
+					"name": "Odiai",
+					"size": "10"
+				},
+				{
+					"name": "Ofay\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Omurano",
+					"size": "10"
+				},
+				{
+					"name": "Oti",
+					"size": "10"
+				},
+				{
+					"name": "Pankarar\u00fa",
+					"size": "10"
+				},
+				{
+					"name": "Puelche",
+					"size": "10"
+				},
+				{
+					"name": "Pyu",
+					"size": "10"
+				},
+				{
+					"name": "Rikbaktsa",
+					"size": "10"
+				},
+				{
+					"name": "Salinan",
+					"size": "10"
+				},
+				{
+					"name": "Sandawe",
+					"size": "10"
+				},
+				{
+					"name": "Sap\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Seri",
+					"size": "10"
+				},
+				{
+					"name": "Shasta",
+					"size": "10"
+				},
+				{
+					"name": "Siuslaw",
+					"size": "10"
+				},
+				{
+					"name": "Sulka",
+					"size": "10"
+				},
+				{
+					"name": "Taruma",
+					"size": "10"
+				},
+				{
+					"name": "Taushiro",
+					"size": "10"
+				},
+				{
+					"name": "Tayap",
+					"size": "10"
+				},
+				{
+					"name": "Ticuna",
+					"size": "10"
+				},
+				{
+					"name": "Tonkawa",
+					"size": "10"
+				},
+				{
+					"name": "Trumai",
+					"size": "10"
+				},
+				{
+					"name": "Tunica",
+					"size": "10"
+				},
+				{
+					"name": "Tux\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Uamu\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Urarina",
+					"size": "10"
+				},
+				{
+					"name": "Vilela",
+					"size": "10"
+				},
+				{
+					"name": "Waorani",
+					"size": "10"
+				},
+				{
+					"name": "Warao",
+					"size": "10"
+				},
+				{
+					"name": "Washo",
+					"size": "10"
+				},
+				{
+					"name": "Xinca",
+					"size": "10"
+				},
+				{
+					"name": "Xukur\u00fa",
+					"size": "10"
+				},
+				{
+					"name": "Yale",
+					"size": "10"
+				},
+				{
+					"name": "Y\u00e1mana",
+					"size": "10"
+				},
+				{
+					"name": "Yuchi",
+					"size": "10"
+				},
+				{
+					"name": "Yuracare",
+					"size": "10"
+				},
+				{
+					"name": "Zuni",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Lencan",
+			"children": 
+			[
+				{
+					"name": "Lenca",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Lower Mamberamo",
+			"children": 
+			[
+				{
+					"name": "Warembori",
+					"size": "10"
+				},
+				{
+					"name": "Yoke",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Maiduan",
+			"children": 
+			[
+				{
+					"name": "Northwest",
+					"size": "10"
+				},
+				{
+					"name": "Nisenan",
+					"size": "10"
+				},
+				{
+					"name": "Maidu",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Maipurean",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "240"
+				},
+				{
+					"name": "Southern",
+					"size": "290"
+				},
+				{
+					"name": "Unclassified",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Mairasi",
+			"children": 
+			[
+				{
+					"name": "Mairasi",
+					"size": "10"
+				},
+				{
+					"name": "Mer",
+					"size": "10"
+				},
+				{
+					"name": "Semimi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Mapudungu",
+			"children": 
+			[
+				{
+					"name": "Huilliche",
+					"size": "10"
+				},
+				{
+					"name": "Mapudungun",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Mascoyan",
+			"children": 
+			[
+				{
+					"name": "Angait\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Enlhet",
+					"size": "10"
+				},
+				{
+					"name": "Enxet",
+					"size": "10"
+				},
+				{
+					"name": "Guana",
+					"size": "10"
+				},
+				{
+					"name": "Sanapan\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Mascoy",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Matacoan",
+			"children": 
+			[
+				{
+					"name": "Maka",
+					"size": "10"
+				},
+				{
+					"name": "Nivacl\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Chorote",
+					"size": "20"
+				},
+				{
+					"name": "Mataco",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Maxakalian",
+			"children": 
+			[
+				{
+					"name": "Maxakal\u00ed",
+					"size": "10"
+				},
+				{
+					"name": "Patax\u00f3 H\u00e3-Ha-H\u00e3e",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Mayan",
+			"children": 
+			[
+				{
+					"name": "Huastecan",
+					"size": "20"
+				},
+				{
+					"name": "Yucatecan-Core Mayan",
+					"size": "290"
+				}
+			]
+		},
+		{
+			"name": "Maybrat",
+			"children": 
+			[
+				{
+					"name": "Karon Dori",
+					"size": "10"
+				},
+				{
+					"name": "Mai Brat",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Misumalpan",
+			"children": 
+			[
+				{
+					"name": "Mayangna",
+					"size": "10"
+				},
+				{
+					"name": "M\u00edskito",
+					"size": "10"
+				},
+				{
+					"name": "Ulwa",
+					"size": "10"
+				},
+				{
+					"name": "Sumu-Cacaopera-Matagalpa",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Miwok-Costanoan",
+			"children": 
+			[
+				{
+					"name": "Costanoan",
+					"size": "20"
+				},
+				{
+					"name": "Miwokan",
+					"size": "60"
+				}
+			]
+		},
+		{
+			"name": "Mixe-Zoquean",
+			"children": 
+			[
+				{
+					"name": "Mixean",
+					"size": "100"
+				},
+				{
+					"name": "Zoquean",
+					"size": "70"
+				}
+			]
+		},
+		{
+			"name": "Mixed Language",
+			"children": 
+			[
+				{
+					"name": "E",
+					"size": "10"
+				},
+				{
+					"name": "N'ko",
+					"size": "10"
+				},
+				{
+					"name": "Armenian-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Bantu-Cushitic",
+					"size": "10"
+				},
+				{
+					"name": "Basque-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Cakchiquel-Quich\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Cebuano-Spanish-English",
+					"size": "10"
+				},
+				{
+					"name": "Chinese-Tibetan-Bonan Mongour",
+					"size": "10"
+				},
+				{
+					"name": "Danish-Romani",
+					"size": "10"
+				},
+				{
+					"name": "English-Romani",
+					"size": "10"
+				},
+				{
+					"name": "French-Cree",
+					"size": "10"
+				},
+				{
+					"name": "German-Yiddish-Romani-Rotwelsch",
+					"size": "10"
+				},
+				{
+					"name": "Greek-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Gurindji-Kriol",
+					"size": "10"
+				},
+				{
+					"name": "Iberian-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Irish-undocumented",
+					"size": "10"
+				},
+				{
+					"name": "Kannada-Malayalam-Tamil",
+					"size": "10"
+				},
+				{
+					"name": "Norwegian-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Russian-Aleut",
+					"size": "10"
+				},
+				{
+					"name": "Serbian-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Songhay-Berber",
+					"size": "10"
+				},
+				{
+					"name": "Spanish-Quichua",
+					"size": "10"
+				},
+				{
+					"name": "Swedish-Romani",
+					"size": "10"
+				},
+				{
+					"name": "Yapese-Ulithi",
+					"size": "10"
+				},
+				{
+					"name": "Zulu-Bantu",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Mongol-Langam",
+			"children": 
+			[
+				{
+					"name": "Mwakai",
+					"size": "10"
+				},
+				{
+					"name": "Pondi",
+					"size": "10"
+				},
+				{
+					"name": "Ulwa",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Mongolic",
+			"children": 
+			[
+				{
+					"name": "Eastern",
+					"size": "120"
+				},
+				{
+					"name": "Western",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Mosetenan",
+			"children": 
+			[
+				{
+					"name": "Tsiman\u00e9",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Muran",
+			"children": 
+			[
+				{
+					"name": "Pirah\u00e3",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Muskogean",
+			"children": 
+			[
+				{
+					"name": "Eastern",
+					"size": "40"
+				},
+				{
+					"name": "Western",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Nakh-Daghestanian",
+			"children": 
+			[
+				{
+					"name": "Avar-Andic",
+					"size": "90"
+				},
+				{
+					"name": "Dargi",
+					"size": "30"
+				},
+				{
+					"name": "Khinalugh",
+					"size": "10"
+				},
+				{
+					"name": "Lak",
+					"size": "10"
+				},
+				{
+					"name": "Lezgic",
+					"size": "90"
+				},
+				{
+					"name": "Nakh",
+					"size": "30"
+				},
+				{
+					"name": "Tsezic",
+					"size": "50"
+				}
+			]
+		},
+		{
+			"name": "Nambikwara",
+			"children": 
+			[
+				{
+					"name": "Saban\u00ea",
+					"size": "10"
+				},
+				{
+					"name": "Complex",
+					"size": "50"
+				}
+			]
+		},
+		{
+			"name": "Niger-Congo",
+			"children": 
+			[
+				{
+					"name": "Atlantic-Congo",
+					"size": "14540"
+				},
+				{
+					"name": "Kordofanian",
+					"size": "230"
+				},
+				{
+					"name": "Mande",
+					"size": "750"
+				},
+				{
+					"name": "Unclassified",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Nilo-Saharan",
+			"children": 
+			[
+				{
+					"name": "Kuliak",
+					"size": "30"
+				},
+				{
+					"name": "Saharan",
+					"size": "100"
+				},
+				{
+					"name": "Satellite-Core",
+					"size": "1880"
+				},
+				{
+					"name": "Sonhai",
+					"size": "90"
+				}
+			]
+		},
+		{
+			"name": "Nimboran",
+			"children": 
+			[
+				{
+					"name": "Gresi",
+					"size": "10"
+				},
+				{
+					"name": "Kemtuik",
+					"size": "10"
+				},
+				{
+					"name": "Mekwei",
+					"size": "10"
+				},
+				{
+					"name": "Mlap",
+					"size": "10"
+				},
+				{
+					"name": "Nimboran",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "North Bougainville",
+			"children": 
+			[
+				{
+					"name": "Keriaka",
+					"size": "10"
+				},
+				{
+					"name": "Konua",
+					"size": "10"
+				},
+				{
+					"name": "Rotokas",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Otomanguean",
+			"children": 
+			[
+				{
+					"name": "Eastern",
+					"size": "1420"
+				},
+				{
+					"name": "Western",
+					"size": "370"
+				}
+			]
+		},
+		{
+			"name": "Paezan",
+			"children": 
+			[
+				{
+					"name": "Andaqui",
+					"size": "10"
+				},
+				{
+					"name": "Coconuco",
+					"size": "40"
+				},
+				{
+					"name": "Paezan",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Palaihnihan",
+			"children": 
+			[
+				{
+					"name": "Achumawi",
+					"size": "10"
+				},
+				{
+					"name": "Atsugewi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Panoan",
+			"children": 
+			[
+				{
+					"name": "Kaxarar\u00ed",
+					"size": "10"
+				},
+				{
+					"name": "Kulina Pano",
+					"size": "10"
+				},
+				{
+					"name": "Pisabo",
+					"size": "10"
+				},
+				{
+					"name": "Sensi",
+					"size": "10"
+				},
+				{
+					"name": "Bolivian Panoan",
+					"size": "20"
+				},
+				{
+					"name": "Mainline",
+					"size": "170"
+				},
+				{
+					"name": "Mayoruna-Mats\u00e9s",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Pauwasi",
+			"children": 
+			[
+				{
+					"name": "Eastern",
+					"size": "30"
+				},
+				{
+					"name": "Western",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Piawi",
+			"children": 
+			[
+				{
+					"name": "Heruai",
+					"size": "10"
+				},
+				{
+					"name": "Pinai-Hagahai",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Pidgin",
+			"children": 
+			[
+				{
+					"name": "Ndyuka-Trio Pidgin",
+					"size": "10"
+				},
+				{
+					"name": "Amerindian",
+					"size": "20"
+				},
+				{
+					"name": "Assamese based",
+					"size": "10"
+				},
+				{
+					"name": "English based",
+					"size": "20"
+				},
+				{
+					"name": "French based",
+					"size": "10"
+				},
+				{
+					"name": "Hausa based",
+					"size": "20"
+				},
+				{
+					"name": "Iha based",
+					"size": "10"
+				},
+				{
+					"name": "Malay based",
+					"size": "10"
+				},
+				{
+					"name": "Motu based",
+					"size": "10"
+				},
+				{
+					"name": "Onin based",
+					"size": "10"
+				},
+				{
+					"name": "Romance based",
+					"size": "10"
+				},
+				{
+					"name": "Swahili based",
+					"size": "10"
+				},
+				{
+					"name": "Zulu based",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Pomoan",
+			"children": 
+			[
+				{
+					"name": "Eastern",
+					"size": "10"
+				},
+				{
+					"name": "Northeastern",
+					"size": "10"
+				},
+				{
+					"name": "Southeastern",
+					"size": "10"
+				},
+				{
+					"name": "Western",
+					"size": "40"
+				}
+			]
+		},
+		{
+			"name": "Puinavean",
+			"children": 
+			[
+				{
+					"name": "D\u00e2w",
+					"size": "10"
+				},
+				{
+					"name": "Puinave",
+					"size": "10"
+				},
+				{
+					"name": "Cacua",
+					"size": "20"
+				},
+				{
+					"name": "Hupda",
+					"size": "20"
+				},
+				{
+					"name": "Kaburi",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Purian",
+			"children": 
+			[
+				{
+					"name": "Korop\u00f3",
+					"size": "10"
+				},
+				{
+					"name": "Puri",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Quechuan",
+			"children": 
+			[
+				{
+					"name": "Central",
+					"size": "200"
+				},
+				{
+					"name": "Peripheral",
+					"size": "240"
+				}
+			]
+		},
+		{
+			"name": "Ramu-Lower Sepik",
+			"children": 
+			[
+				{
+					"name": "Kambot",
+					"size": "10"
+				},
+				{
+					"name": "Lower Spepik",
+					"size": "60"
+				},
+				{
+					"name": "Ramu",
+					"size": "250"
+				}
+			]
+		},
+		{
+			"name": "Sahaptian",
+			"children": 
+			[
+				{
+					"name": "Nez Perce",
+					"size": "10"
+				},
+				{
+					"name": "Sahaptian",
+					"size": "40"
+				}
+			]
+		},
+		{
+			"name": "Salish",
+			"children": 
+			[
+				{
+					"name": "Bella Coola",
+					"size": "10"
+				},
+				{
+					"name": "Tillamook",
+					"size": "10"
+				},
+				{
+					"name": "Central",
+					"size": "120"
+				},
+				{
+					"name": "Interior",
+					"size": "80"
+				},
+				{
+					"name": "Tsamosan",
+					"size": "40"
+				}
+			]
+		},
+		{
+			"name": "S\u00e1livan",
+			"children": 
+			[
+				{
+					"name": "S\u00e1liba",
+					"size": "10"
+				},
+				{
+					"name": "Piaroa-Maco",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Senagi",
+			"children": 
+			[
+				{
+					"name": "Angor",
+					"size": "10"
+				},
+				{
+					"name": "Dla",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Sepik",
+			"children": 
+			[
+				{
+					"name": "Abau",
+					"size": "10"
+				},
+				{
+					"name": "Iwam",
+					"size": "30"
+				},
+				{
+					"name": "Leonhard Schultze",
+					"size": "40"
+				},
+				{
+					"name": "Ndu",
+					"size": "130"
+				},
+				{
+					"name": "Nukuma",
+					"size": "30"
+				},
+				{
+					"name": "Ram",
+					"size": "30"
+				},
+				{
+					"name": "Sepik Hill",
+					"size": "150"
+				},
+				{
+					"name": "Tama",
+					"size": "60"
+				},
+				{
+					"name": "Wogamusin-Chenapian",
+					"size": "20"
+				},
+				{
+					"name": "Yellow River",
+					"size": "30"
+				},
+				{
+					"name": "Yerakai",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Sign Language",
+			"children": 
+			[
+				{
+					"name": "International Sign",
+					"size": "10"
+				},
+				{
+					"name": "Deaf community sign language",
+					"size": "1290"
+				},
+				{
+					"name": "Shared sign language",
+					"size": "270"
+				}
+			]
+		},
+		{
+			"name": "Sino-Tibetan",
+			"children": 
+			[
+				{
+					"name": "Chinese",
+					"size": "160"
+				},
+				{
+					"name": "Tibeto-Burman",
+					"size": "4420"
+				}
+			]
+		},
+		{
+			"name": "Siouan-Catawban",
+			"children": 
+			[
+				{
+					"name": "Catawban",
+					"size": "10"
+				},
+				{
+					"name": "Siouan",
+					"size": "140"
+				}
+			]
+		},
+		{
+			"name": "Skou",
+			"children": 
+			[
+				{
+					"name": "I'saka",
+					"size": "10"
+				},
+				{
+					"name": "Skou-Serra-Lagoon",
+					"size": "90"
+				}
+			]
+		},
+		{
+			"name": "Somahai",
+			"children": 
+			[
+				{
+					"name": "Momina",
+					"size": "10"
+				},
+				{
+					"name": "Momuna",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "South Bougainville",
+			"children": 
+			[
+				{
+					"name": "Buin",
+					"size": "30"
+				},
+				{
+					"name": "Nasioi",
+					"size": "60"
+				}
+			]
+		},
+		{
+			"name": "South-Central Papuan",
+			"children": 
+			[
+				{
+					"name": "Morehead-Upper Maro",
+					"size": "170"
+				},
+				{
+					"name": "Pahoturi",
+					"size": "20"
+				},
+				{
+					"name": "Waia",
+					"size": "10"
+				},
+				{
+					"name": "Yelmek-Ma;ew",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Tacanan",
+			"children": 
+			[
+				{
+					"name": "Cavine\u00f1a",
+					"size": "10"
+				},
+				{
+					"name": "Chama",
+					"size": "20"
+				},
+				{
+					"name": "Tacana",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "Takelman",
+			"children": 
+			[
+				{
+					"name": "Kalapuya",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Tarascan",
+			"children": 
+			[
+				{
+					"name": "Purepecha",
+					"size": "10"
+				},
+				{
+					"name": "Purepecha, Western Highland",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Tequistlatecan",
+			"children": 
+			[
+				{
+					"name": "Chontal, Highland Oaxaca",
+					"size": "10"
+				},
+				{
+					"name": "Chontal, Lowland Oaxaca",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Tiniguan",
+			"children": 
+			[
+				{
+					"name": "Tinigua",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Tor-Kwerba",
+			"children": 
+			[
+				{
+					"name": "Greater Kwerba",
+					"size": "80"
+				},
+				{
+					"name": "Orya-Tor",
+					"size": "150"
+				}
+			]
+		},
+		{
+			"name": "Torricelli",
+			"children": 
+			[
+				{
+					"name": "Kombio-Arapesh",
+					"size": "100"
+				},
+				{
+					"name": "Maimai",
+					"size": "60"
+				},
+				{
+					"name": "Marienberg",
+					"size": "70"
+				},
+				{
+					"name": "Monumbo",
+					"size": "20"
+				},
+				{
+					"name": "Urim",
+					"size": "10"
+				},
+				{
+					"name": "Wapei-Palei",
+					"size": "230"
+				},
+				{
+					"name": "West Wapei",
+					"size": "80"
+				}
+			]
+		},
+		{
+			"name": "Totonacan",
+			"children": 
+			[
+				{
+					"name": "Tepehua",
+					"size": "30"
+				},
+				{
+					"name": "Totonac",
+					"size": "90"
+				}
+			]
+		},
+		{
+			"name": "Trans-New Guinea",
+			"children": 
+			[
+				{
+					"name": "Angan",
+					"size": "130"
+				},
+				{
+					"name": "Asmat-Kamoro",
+					"size": "110"
+				},
+				{
+					"name": "Awin-Pare",
+					"size": "20"
+				},
+				{
+					"name": "Bosavi",
+					"size": "90"
+				},
+				{
+					"name": "Chimbu-Wahgi",
+					"size": "170"
+				},
+				{
+					"name": "Damal",
+					"size": "10"
+				},
+				{
+					"name": "Dem",
+					"size": "10"
+				},
+				{
+					"name": "Duna-Bogaya",
+					"size": "20"
+				},
+				{
+					"name": "East Kutubu",
+					"size": "20"
+				},
+				{
+					"name": "East Strickland",
+					"size": "60"
+				},
+				{
+					"name": "Eleman",
+					"size": "70"
+				},
+				{
+					"name": "Engan",
+					"size": "140"
+				},
+				{
+					"name": "Finisterre-Huon",
+					"size": "610"
+				},
+				{
+					"name": "Gogodala-Suki",
+					"size": "40"
+				},
+				{
+					"name": "Greater Binanderean",
+					"size": "130"
+				},
+				{
+					"name": "Inland Gulf",
+					"size": "70"
+				},
+				{
+					"name": "Kainantu-Goroka",
+					"size": "290"
+				},
+				{
+					"name": "Kamula",
+					"size": "10"
+				},
+				{
+					"name": "Kayagar",
+					"size": "30"
+				},
+				{
+					"name": "Kiwaian",
+					"size": "70"
+				},
+				{
+					"name": "Kolopom",
+					"size": "30"
+				},
+				{
+					"name": "Madang",
+					"size": "1070"
+				},
+				{
+					"name": "Marind",
+					"size": "60"
+				},
+				{
+					"name": "Mek",
+					"size": "70"
+				},
+				{
+					"name": "Mombum",
+					"size": "20"
+				},
+				{
+					"name": "Mor",
+					"size": "20"
+				},
+				{
+					"name": "Moraori",
+					"size": "10"
+				},
+				{
+					"name": "Ok-Awyu",
+					"size": "360"
+				},
+				{
+					"name": "Oksapmin",
+					"size": "10"
+				},
+				{
+					"name": "Pawaian",
+					"size": "10"
+				},
+				{
+					"name": "South Bird\u2019s Head",
+					"size": "100"
+				},
+				{
+					"name": "Southeast Papuan",
+					"size": "380"
+				},
+				{
+					"name": "Tanah Merah",
+					"size": "10"
+				},
+				{
+					"name": "Teberan",
+					"size": "20"
+				},
+				{
+					"name": "Tirio",
+					"size": "50"
+				},
+				{
+					"name": "Turama-Kikorian",
+					"size": "40"
+				},
+				{
+					"name": "West",
+					"size": "450"
+				},
+				{
+					"name": "West Kutubu",
+					"size": "10"
+				},
+				{
+					"name": "Wiru",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Tsimshian",
+			"children": 
+			[
+				{
+					"name": "Tsimshian",
+					"size": "10"
+				},
+				{
+					"name": "Nass-Gitksan",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Tucanoan",
+			"children": 
+			[
+				{
+					"name": "Miriti",
+					"size": "10"
+				},
+				{
+					"name": "Central Tucanoan",
+					"size": "10"
+				},
+				{
+					"name": "Eastern Tucanoan",
+					"size": "140"
+				},
+				{
+					"name": "Western Tucanoan",
+					"size": "90"
+				}
+			]
+		},
+		{
+			"name": "Tungusic",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "40"
+				},
+				{
+					"name": "Southern",
+					"size": "70"
+				}
+			]
+		},
+		{
+			"name": "Tupian",
+			"children": 
+			[
+				{
+					"name": "Awet\u00ed",
+					"size": "10"
+				},
+				{
+					"name": "Kamayur\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Purubor\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Sater\u00e9-Maw\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Zo\u2019\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Arikem",
+					"size": "20"
+				},
+				{
+					"name": "Juruna",
+					"size": "30"
+				},
+				{
+					"name": "Mond\u00e9",
+					"size": "50"
+				},
+				{
+					"name": "Munduruk\u00fa",
+					"size": "20"
+				},
+				{
+					"name": "Ramarama",
+					"size": "20"
+				},
+				{
+					"name": "Tupar\u00ed",
+					"size": "60"
+				},
+				{
+					"name": "Tup\u00ed-Guaran\u00ed",
+					"size": "510"
+				}
+			]
+		},
+		{
+			"name": "Turkic",
+			"children": 
+			[
+				{
+					"name": "Urum",
+					"size": "10"
+				},
+				{
+					"name": "Bolgar",
+					"size": "10"
+				},
+				{
+					"name": "Eastern",
+					"size": "70"
+				},
+				{
+					"name": "Northern",
+					"size": "80"
+				},
+				{
+					"name": "Southern",
+					"size": "120"
+				},
+				{
+					"name": "Western",
+					"size": "120"
+				}
+			]
+		},
+		{
+			"name": "Tuu",
+			"children": 
+			[
+				{
+					"name": "Ui",
+					"size": "50"
+				},
+				{
+					"name": "Taa",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Unclassified",
+			"children": 
+			[
+				{
+					"name": "Agavotaguerra",
+					"size": "10"
+				},
+				{
+					"name": "Ar\u00e1ra, Mato Grosso",
+					"size": "10"
+				},
+				{
+					"name": "Awishira",
+					"size": "10"
+				},
+				{
+					"name": "Bung",
+					"size": "10"
+				},
+				{
+					"name": "Carabayo",
+					"size": "10"
+				},
+				{
+					"name": "Doso",
+					"size": "10"
+				},
+				{
+					"name": "Enggano",
+					"size": "10"
+				},
+				{
+					"name": "Gail",
+					"size": "10"
+				},
+				{
+					"name": "Haitian Vodoun Culture Language",
+					"size": "10"
+				},
+				{
+					"name": "Himarim\u00e3",
+					"size": "10"
+				},
+				{
+					"name": "Kaimb\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Kambiw\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Kapinaw\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Kara",
+					"size": "10"
+				},
+				{
+					"name": "Kasabe",
+					"size": "10"
+				},
+				{
+					"name": "Kembra",
+					"size": "10"
+				},
+				{
+					"name": "Kimki",
+					"size": "10"
+				},
+				{
+					"name": "Kujarge",
+					"size": "10"
+				},
+				{
+					"name": "Lepki",
+					"size": "10"
+				},
+				{
+					"name": "Lufu",
+					"size": "10"
+				},
+				{
+					"name": "Lule",
+					"size": "10"
+				},
+				{
+					"name": "Majhwar",
+					"size": "10"
+				},
+				{
+					"name": "Mangue",
+					"size": "10"
+				},
+				{
+					"name": "Mawa",
+					"size": "10"
+				},
+				{
+					"name": "Molof",
+					"size": "10"
+				},
+				{
+					"name": "Murkim",
+					"size": "10"
+				},
+				{
+					"name": "Namla",
+					"size": "10"
+				},
+				{
+					"name": "Pankarar\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Pijao",
+					"size": "10"
+				},
+				{
+					"name": "Polari",
+					"size": "10"
+				},
+				{
+					"name": "Pum\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Quinqui",
+					"size": "10"
+				},
+				{
+					"name": "Rer Bare",
+					"size": "10"
+				},
+				{
+					"name": "Shabo",
+					"size": "10"
+				},
+				{
+					"name": "Shanenawa",
+					"size": "10"
+				},
+				{
+					"name": "Tingui-Boto",
+					"size": "10"
+				},
+				{
+					"name": "Tofanma",
+					"size": "10"
+				},
+				{
+					"name": "Traveller Scottish",
+					"size": "10"
+				},
+				{
+					"name": "Trememb\u00e9",
+					"size": "10"
+				},
+				{
+					"name": "Truk\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Usku",
+					"size": "10"
+				},
+				{
+					"name": "Wakon\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Wasu",
+					"size": "10"
+				},
+				{
+					"name": "Waxianghua",
+					"size": "10"
+				},
+				{
+					"name": "Weyto",
+					"size": "10"
+				},
+				{
+					"name": "Yeni",
+					"size": "10"
+				},
+				{
+					"name": "Yetfa",
+					"size": "10"
+				},
+				{
+					"name": "Yitha Yitha",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Uralic",
+			"children": 
+			[
+				{
+					"name": "Hungarian",
+					"size": "10"
+				},
+				{
+					"name": "Khanty",
+					"size": "10"
+				},
+				{
+					"name": "Mansi",
+					"size": "10"
+				},
+				{
+					"name": "Finnic",
+					"size": "120"
+				},
+				{
+					"name": "Mari",
+					"size": "20"
+				},
+				{
+					"name": "Mordvin",
+					"size": "20"
+				},
+				{
+					"name": "Permian",
+					"size": "30"
+				},
+				{
+					"name": "Sami",
+					"size": "100"
+				},
+				{
+					"name": "Samoyed",
+					"size": "60"
+				}
+			]
+		},
+		{
+			"name": "Uto-Aztecan",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "130"
+				},
+				{
+					"name": "Southern",
+					"size": "480"
+				}
+			]
+		},
+		{
+			"name": "Wakashan",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "30"
+				},
+				{
+					"name": "Southern",
+					"size": "30"
+				}
+			]
+		},
+		{
+			"name": "West Papuan",
+			"children": 
+			[
+				{
+					"name": "North Halmahera",
+					"size": "160"
+				},
+				{
+					"name": "West Bird's Head",
+					"size": "50"
+				},
+				{
+					"name": "Yapen",
+					"size": "20"
+				}
+			]
+		},
+		{
+			"name": "Wintuan",
+			"children": 
+			[
+				{
+					"name": "Nomlaki",
+					"size": "10"
+				},
+				{
+					"name": "Patwin",
+					"size": "10"
+				},
+				{
+					"name": "Wintu",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Witotoan",
+			"children": 
+			[
+				{
+					"name": "Nonuya",
+					"size": "10"
+				},
+				{
+					"name": "Proto-Bora-Muinane",
+					"size": "20"
+				},
+				{
+					"name": "Proto-Huitoto-Ocaina",
+					"size": "40"
+				}
+			]
+		},
+		{
+			"name": "Yaguan",
+			"children": 
+			[
+				{
+					"name": "Yagua",
+					"size": "10"
+				},
+				{
+					"name": "Yameo",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yanomaman",
+			"children": 
+			[
+				{
+					"name": "Ninam",
+					"size": "10"
+				},
+				{
+					"name": "Sanum\u00e1",
+					"size": "10"
+				},
+				{
+					"name": "Yanom\u00e1mi",
+					"size": "10"
+				},
+				{
+					"name": "Yanomam\u00f6",
+					"size": "10"
+				},
+				{
+					"name": "Yaroam\u00eb",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yele-West New Britain",
+			"children": 
+			[
+				{
+					"name": "West New Britain",
+					"size": "20"
+				},
+				{
+					"name": "Yele",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yeniseian",
+			"children": 
+			[
+				{
+					"name": "Ket",
+					"size": "10"
+				},
+				{
+					"name": "Yug",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yokutsan",
+			"children": 
+			[
+				{
+					"name": "Yokuts",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yuat",
+			"children": 
+			[
+				{
+					"name": "Biwat",
+					"size": "10"
+				},
+				{
+					"name": "Bun",
+					"size": "10"
+				},
+				{
+					"name": "Changriwa",
+					"size": "10"
+				},
+				{
+					"name": "Kyenele",
+					"size": "10"
+				},
+				{
+					"name": "Mekmek",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yukaghir",
+			"children": 
+			[
+				{
+					"name": "Northern",
+					"size": "10"
+				},
+				{
+					"name": "Southern",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Yukian",
+			"children": 
+			[
+				{
+					"name": "Wappo",
+					"size": "10"
+				},
+				{
+					"name": "Core Yukian",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Zamucoan",
+			"children": 
+			[
+				{
+					"name": "Ayoreo",
+					"size": "10"
+				},
+				{
+					"name": "Chamacoco",
+					"size": "10"
+				}
+			]
+		},
+		{
+			"name": "Zaparoan",
+			"children": 
+			[
+				{
+					"name": "Iquito-Cahuarano",
+					"size": "20"
+				},
+				{
+					"name": "Z\u00e1paro",
+					"size": "30"
+				}
+			]
+		}
+	]
+}
