@@ -33,22 +33,26 @@
 }
 
 .container { display: flex; justify-content: center; }
+  
 .h2 {padding-left: 30%; padding-right: 30%;
   font: Microsoft YaHei; }
 
 p{
   font-size: 19px;
 }
+  
 .h1{padding-left: 28%; padding-right: 30%;}
 .h3{padding-left: 30%; padding-right: 30%;
   font: Microsoft YaHei;}
+  
 .left_class{padding-left: 0.5%;
   position:fixed;
   left:20px;
   top:440px;
   background-color: #fff;
+  opacity: 0.0;
   font: Microsoft YaHei;
-  float: left; width: 360px; height: 245px;
+  float: left; width: 350px; height: 245px;
 border: rgb(44, 103, 158) solid 2px;}
 div a{
   padding-left: 0.5%;
@@ -231,7 +235,7 @@ d3.json("language by family.json", function(error, root) {
 <p class="h2">From the sunburst below, it is seen that the numbers of 
   languages in different continents represent interesting distinctions.</p>
 <div class="container">
-  <svg id="chart1" width="700" height="700"></svg>
+  <svg id="chart1" width="690" height="690"></svg>
 </div>
 <p class="h2">Americas, including South America and North America, 
   has a larger area than Asia, but the number of languages in Americas 
